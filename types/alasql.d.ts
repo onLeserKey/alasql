@@ -31,6 +31,7 @@ declare module 'alasql' {
 		sqlite: boolean;
 		orientdb: boolean;
 		excel: any;
+		dateAsString: boolean; // Whether GETDATE() and NOW() return dates as string. If false, then a Date object is returned
 	}
 
 	// compiled Statement
